@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <div>
       <ul>
-        <EventsSearch />
         <EventList items={featuredEvents} />
       </ul>
     </div>
