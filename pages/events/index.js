@@ -10,7 +10,6 @@ const Events = () => {
   const router = useRouter();
 
   const searchHandler = (year, month) => {
-    const filteredEvent = getFilteredEvents(year, month);
     router.push(`/events/${year}/${month}`);
   };
 
